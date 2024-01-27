@@ -10,7 +10,6 @@ export default function App() {
   const copyText = () => {
     window.navigator.clipboard.writeText(password);
     setCopyColor(true);
-    alert("Copy To The Clipboard!");
   };
 
   const generatePassword = useCallback(() => {
