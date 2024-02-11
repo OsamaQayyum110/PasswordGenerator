@@ -42,7 +42,7 @@ function App() {
             convert();
           }}
         >
-          <div className="w-full h-[29rem] flex flex-col justify-center items-center border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+          <div className="w-full h-[29rem] flex flex-col justify-center items-center border border-gray-60 rounded-2xl p-5 backdrop-blur-sm bg-white/20">
             <div className=" flex flex-wrap justify-center items-center">
               <div className="input">
                 <InputBox
